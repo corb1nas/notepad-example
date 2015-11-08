@@ -9,5 +9,7 @@
 
 <p>Welcome to {{title}}</p>
 <p>{{banner}}</p>
+<a href="/users">User management</a>
+<a href="/tasks">Tasks management</a>
 </body>
 </html>

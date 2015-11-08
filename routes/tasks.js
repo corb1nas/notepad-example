@@ -7,7 +7,7 @@ router.get('/', function (req, res, next) {
     models.User.findAll({
         include: [models.Task]
     }).then(function (users) {
-        res.render("tasks", {title: "Users", users: users})
+        res.render("tasks", {title: "Users and tasks", users: users})
     });
 });
 
