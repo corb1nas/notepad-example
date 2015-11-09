@@ -5,11 +5,8 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-<h1>{{title}}</h1>
-
-<p>Welcome to {{title}}</p>
-<p>{{banner}}</p>
-<a href="/users">User management</a>
-<a href="/tasks">Tasks management</a>
+{{#users}}
+    {{> user}}
+{{/users}}
 </body>
 </html>
